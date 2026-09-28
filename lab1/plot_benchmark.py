@@ -26,7 +26,7 @@ def main():
     axis.set_xlabel("Threads")
     axis.set_ylabel("Operations (M) / second (log scale)")
     axis.set_yscale("log")
-    y_ticks = [20, 30, 50, 100, 200, 300, 500, 1000, 2000]
+    y_ticks = [10, 20, 30, 50, 100, 200, 300, 500, 1000, 2000]
     axis.set_yticks(y_ticks, labels=[str(value) for value in y_ticks])
     axis.yaxis.set_minor_formatter(NullFormatter())
     axis.grid(True, which="both", alpha=0.25)
