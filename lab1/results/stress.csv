@@ -1,0 +1,5 @@
+impl,threads,snapshots,inconsistent_percent,less,greater,operations,final_count,difference
+striped,4,10000,97.69,9629,140,277727,277727,0
+tls,4,10000,89.49,8949,0,6062316,6062316,0
+double-buffer,4,10000,0.00,0,0,5819698,5819698,0
+double-buffer-unsafe,4,10000,91.95,9195.5,0.0,5068854.5,5068854.5,-0.5
